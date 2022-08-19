@@ -1,0 +1,515 @@
+/*≡≡≡≡ IMPORTAÇÃO DAS FONTES <Todos os HTML>  ≡≡≡≡
+
+=== Urbanist (Usada na BARRA DE NAVEGAÇÃO) === */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*=== Libre Franklin (Usada no SLOGAN do SITE) === */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*== RESET CSS  */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*=========-- HEADER <tds html> --===============*/
+header {
+    background-color: #66209e;
+}
+/* Links da barra de Navegação */
+#head-div a {
+    font-weight: 460;
+    color: rgba(255, 255, 255, 0.55);
+    transition: .15s;
+} #head-div a:hover {
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 1px 1px 1px #4b1179;
+}
+
+/* Botao "Entrar" ou "Home" da NavBar */
+#head-div .btn {
+    border-radius: 25px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+} #head-div .btn:hover {
+    background-color: white;
+    color: #66209e;
+    text-shadow: none;
+    box-shadow: 2.5px 2.5px rgba(0, 0, 0, 0.3);
+} div.barnaveg-btn {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+/* Botão TOGGLER que esconde o menu */
+button.navbar-toggler {
+    outline: none;
+    border: none;
+} i.fa-bars { color: white;}
+
+
+/*≡≡≡≡≡≡≡≡≡ BODIES <TODOS OS HTML> ≡≡≡≡≡≡≡≡≡≡≡*/
+#body-index {
+    background-color: #1a1a1a;
+    background: url('https://i.imgur.com/NAs1kF6.png') no-repeat;
+    background-size: cover;
+}
+#body-login {
+    /*--- IMAGEM DE FUNDO ---*/
+	background: url('https://i.imgur.com/iE3GKFJ.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	/*---- Cor POR BAIXO da IMG de FND -----*/
+	background-color: #4b1179;
+}
+body {
+    font-family: 'Urbanist', sans-serif;
+} /*-----=== <fim dos bodies html> ===-------
+
+/* Ícones da filtro de Pesquisa (formulário)*/
+.form-group i {
+    opacity: 90%;
+}
+
+/*
+[index.html].......................................
+/*≡≡==--==≡≡≡≡==--==≡≡ INDEX ≡≡==--==≡≡≡≡==--==≡≡*/
+
+.ctn-main { /*=== CONTEÚDO DA PÁGINA ===*/
+    position: relative;
+    width: 600px;
+    padding: 20px;
+  
+    /*Centralizar*/
+    margin-top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.45);
+  
+    border: 1px solid gray;
+    border-radius: 12px;
+    background-color: white; /* Cor caixa de Formulário */
+    text-align: center; /* Alinhar centro TODOS elementos*/
+}
+
+/*=== CAIXA DO FILTRO ===*/
+.filtro1 {
+    /*-- Borda no Filtro --*/
+    border-top: 2px solid #66209e;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+#enviar1 {
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #66209e;
+    border-radius: 30px;
+    width: 95%;
+    background-color: #66209e;
+    color: white;
+} #enviar1:hover {
+    color: white;
+    background-color: #520b8b;
+    font-weight: 420;
+}
+/*=== Área de PESQUISA ===*/
+#form-search span {
+    padding-left: 10%;
+} /*-----=== <fim do index html> ===-------
+
+
+
+[resultados-pesquisa.html].......................
+/*≡≡≡==--==≡≡ RESULTADOS DE PESQUISA ≡≡==--==≡≡≡*/
+
+h3#semresult {
+    padding: 20px 5px;
+    opacity: .6;
+}
+
+/*------- Afastamento da Pesquisa-------*/
+#fomr-search, #area-pesquisa {
+    margin-top: 15px;
+}
+/*==== CAIXA DO FILTRO ====*/
+
+#filtro2 { 
+    /*----------- Borda no Filtro --------------*/
+    border-left: 5px solid #66209e;
+    border-radius: 4px;
+    padding: 5px;
+    padding-left: 10px;
+}
+#enviar2 {
+    border: 2px solid #66209e;
+    border-radius: 30px;
+    width: 15%;
+    background: none;
+    color: #66209e;
+} #enviar2:hover {
+    color: white;
+    background-color: #66209e;
+}
+h2.align-middle { padding: 20px 5px; opacity: .5; }
+
+/*
+[login-FFN.html]............................................
+/*≡≡==--==≡≡≡≡==--==≡≡ TELA DE LOGIN ≡≡==--==≡≡≡≡==--==≡≡*/
+
+/*---  TEXTOS  ---*/
+.txt-form-login h2 {
+    font-size: 26px;
+	font-weight: 500;
+	margin-top: 5px;
+} .txt-form-login h3 {
+    color: white;
+    font-size: 20px;
+	font-weight: 450;
+	margin-top: 3px;
+}
+.txt-form-login p { /* txt ''É novo, Cadastre-se'' */
+	margin-top: 35px;
+	margin-bottom: 0;
+	font-size: 15px;
+} #login-screen p a { color: #b38aff; }
+hr.hline-form {
+    border: 1.5px solid #480064;
+    border-radius: 3px;
+    width: 65%;
+    margin: auto;
+}
+
+/* Classe referente ao formulário*/
+#login-screen {
+    color: white;
+	width: 450px;
+	padding: 40px;
+
+	border-radius: 12px;
+	background-color: #1f192b; /* Cor caixa Form */
+	text-align: center; /* Alinhar centro TODOS elementos */
+	transition: 0.25s;
+
+}
+/*---=== Sombra por trás da box ===---*/
+#login-screen:hover {
+	box-shadow: 8px 8px #3b1a5596;
+}
+
+/*- Espaços "USERNAME & PASSWORD" do Form -*/
+#login-screen input[type = "text"], input[type = "password"] {
+
+	background: none;
+
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+
+	border: 2px solid #6a15ae;
+	padding: 10px 10px;
+	width: 220px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+
+	box-shadow: initial;
+
+	/*- - Atributo que prepara a TRANSIÇÃO para um possível ":hover" ou ":focus" - -*/
+	transition: 0.25s;
+}
+/* Aumento da width qnd clica */
+#login-screen input[type = "text"]:focus, input[type = "password"]:focus {
+	width: 300px;
+	border-color: #ff0066;
+}
+/* Botão de LOGIN */
+#login-screen input[type = "submit"] {
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #6a15ae;
+	padding: 10px 40px;
+
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+
+	/*- - ALTERA o ícone pra Dedo APONTANDO (clicking object) - -*/
+	cursor: pointer;
+} #login-screen input[type = "submit"]:hover {
+	background-color: #6a15ae;
+	font-weight: bold;
+}
+
+
+/*≡≡≡≡≡≡≡≡≡ FOOTER <TODOS OS HTML> ≡≡≡≡≡≡≡≡≡≡≡*/
+.footer-dark { /*= Footer GERAL =*/
+    padding: 25px 0;
+    color: #f0f9ff;
+    background-color: #1a1a1a;
+}
+  
+/*- TÍTULOS do Footer -*/
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+  
+/*=== CAIXAS de LISTA do Footer ===*/
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/*-- LINKS dos ITENS das Listas do Footer --*/
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.95;
+}
+
+/* Copyright <FFN 2021> */
+p.copyright {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
+}
+/* Descrição do projeto */
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+/*≡≡≡≡≡≡≡≡≡≡=-# fim do footer #-=≡≡≡≡≡≡≡≡≡≡≡≡≡*/
+
+
+/*=====≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡ @media Para RESPONSIVIDADE ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡=====*/
+
+/* -==== @media do tipo 1 ====- */
+@media (max-width: 992px){
+    /* O SUBlsogan removido */
+    #subslogan {
+        display: none;
+    }
+    span.navbar-text { padding: 0;} /*Slogan volta middle*/
+
+    /* Logo diminui tamanho */
+    a.navbar-brand .image-fluid {
+        width: 110px;
+    }
+    .navbar-nav a { /* Opções texto reduzido */
+        text-align: center;
+        font-size: 14px;
+    } #barnaveg-btn { font-size: 14px; }
+    .navbar-slotext { /* Slogan e subslogan reduzidos */
+        font-size: 14.2px;
+    }
+    /* Centralização Botão */
+    .barnaveg-btn {
+        height: 52px;
+        padding-top: 10px;
+    }
+    /* Diminuição div Slogan, pra caber os itens da navbar */
+    span.navbar-text.pb-0 {
+        width: 170px;
+    }
+
+    a.nav-item.nav-link {
+        height: 41px;
+        padding-bottom: 0px;
+        padding-top: 17px;
+    }
+}
+
+/* -========== @media do tipo 2 =========- */
+@media (max-width: 767px) {
+    /*[index.html]............................*/
+
+    a.navbar-brand .image-fluid {
+        margin-left: 3%;
+    }
+    /* Centralizar botão "Entrar" no toggler */
+    #barnaveg-btn {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 71%;
+        padding-top: .5rem;
+    } .barnaveg-btn { padding-top: 0; }
+    
+    /* "Classificações" e "Mais Acessadas" */
+    a.nav-item.nav-link {
+        height: 41px;
+        padding: .5rem;
+    }
+    #head-div .nav-link {
+        border-radius: 25px;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        color: white;
+        width: 75%;
+        margin-left: 12.4%;
+        margin-bottom: 5px;
+    }
+
+    /*[resultados-pesquisa.html]................*/
+    #enviar2 { width: 25% !important; }
+    
+}
+
+/* -========== @media do tipo 2.5 =========- */
+@media (max-width: 615px) {
+    /* Tamanho da BOX do form aumenta*/
+    .ctn-main {
+        width: 390px;
+    }
+    label h3 { /* Diminui txt */
+        font-size: 1.4rem;
+    }
+}
+
+/* -========== @media do tipo 3 =========- */
+
+@media (max-width: 500px) {
+    /*[index.html]............................*/
+
+    a.navbar-brand .image-fluid {
+        width: 95px;
+    }
+
+
+    /*[resultados-pesquisa.html]................*/
+
+    #form-search { /* Centraliza o corpo */
+        text-align: center;
+    }
+    /* Remove as duas linhas (quebras de linha) das noticias e veiculos*/
+    br#br-respesq {
+        display: none;
+    }
+
+    #filtro2 { /* Tira a borda do filtro */
+        border: 2px solid #b38aff;
+        border-left: 2px solid #b38aff;
+        border-radius: 4px; 
+        box-shadow: 2px 2px 1px #65209e4f;
+    }
+
+    #enviar2 {
+        width: 55% !important;
+    }
+
+    /*[login-FFN.html]............................*/
+    /* Box do FORM */
+    #login-screen {
+        width: 90%;
+	    padding: 20px;
+    }
+    /*--= Textos =--*/
+    #h2-login {
+        font-size: 20px !important;
+    }
+    
+    #h3-login {
+        font-size: 15px !important;
+    }
+
+    /* Botões "Email" e "Senha" */
+    #login-screen input[type = "text"], input[type = "password"] {
+        margin: 14px auto;
+        padding: 8px 8px;
+        width: 200px;
+        font-size: 14px;
+    }
+    /* Alteração na width da borda ao clicar (necessária) */
+    #login-screen input[type = "text"]:focus, input[type = "password"]:focus {
+        width: 280px;
+    }
+    #login-screen input[type = "submit"] { /* Alteração botão "Enviar" */
+        margin: 14px auto;
+        padding: 8px 35px;
+        font-size: 14px;
+    }
+    /* Frase "cadastre-se" */
+    #login-screen p { font-size: .8rem;}
+
+}
+
+/* -========= @media do tipo 4 =========- */
+@media (max-width: 385px) {
+    .navbar-slotext {
+        display: none;
+    }
+    .ctn-main {
+        width: 350px;
+        padding: 10px;
+        margin-top: 200px;
+    }
+}
+/*========≡≡≡≡≡≡≡==- # fim da responsividade # -==≡≡≡≡≡≡≡=========*/
