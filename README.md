@@ -1,7 +1,7 @@
 # 🎬 PyCine 🍿
 ![](https://i.imgur.com/rZkNahQ.jpg)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O projeto desenvolvido em Python é um sistema de gerenciamento para um cinema local, que busca **automatizar** e **digitalizar** os processos relacionados à administração do estabelecimento. Através deste programa, é possível realizar operações básicas de CRUD (criação, leitura, atualização e exclusão) para diferentes entidades, como filmes, clientes, ingressos e *outros (sobre isso, mais adiante)*. O objetivo principal é fornecer um controle eficiente e preciso das atividades que ocorrem no cinema, permitindo que a equipe tenha uma visão abrangente e organizada das informações.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O projeto desenvolvido em Python é um sistema de gerenciamento de um cinema local, que busca **automatizar** e **digitalizar** os processos voltados à clientela. Através deste programa, é possível realizar operações básicas de CRUD (criação, leitura, atualização e exclusão) para diferentes entidades, como filmes, clientes, ingressos e *outros (sobre isso, mais adiante)*. O objetivo principal é fornecer um controle eficiente e preciso das atividades que ocorrem no cinema, permitindo que a equipe tenha uma visão abrangente e organizada das informações.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Além disso, o sistema também visa atender a **requisitos acadêmicos**, servindo como uma avaliação para a disciplina "DCT1101 - Alg. Lógica de Programação" da faculdade de Bacharelado em Sistemas de Informação - UFRN.
 
 ## Funcionalidades
@@ -50,6 +50,8 @@ Permite cadastrar e gerenciar informações dos clientes do cinema. É possível
 
 *É importante ressaltar que o banco de dados atual é local e específico para cada instalação do programa. Caso seja necessário compartilhar os dados entre diferentes instâncias do sistema, será necessário adotar uma abordagem de banco de dados centralizado ou utilizar tecnologias de sincronização de dados adequadas.*
 
+## 🤕 **Problemas**
+
 ## Updates Futuros
 > Para os próximos updates do projeto, estou planejando desenvolver um sistema adicional destinado exclusivamente aos funcionários e gerentes do cinema local. Esse sistema terá recursos avançados de permissões e autenticações para garantir a segurança e a privacidade das informações sensíveis.
 
@@ -79,7 +81,7 @@ Permite cadastrar e gerenciar informações dos clientes do cinema. É possível
 | **Func. Comum** |        ✔        |          ✔         |      ✔     |          ✔         |    ✔   |
 | **Cliente**   | (apenas o próprio) | (apenas o próprio) |      ✔     | (apenas o próprio) |    ✔   |
 
-Essa adição funcionará como um complemento da versão padrão para clientes, e proporcionará uma melhor organização interna e agilidade nas operações diárias, contribuindo para uma experiência ainda mais satisfatória tanto para os clientes quanto para os profissionais envolvidos.
+> Essa adição funcionará como um complemento da versão padrão para clientes, e proporcionará uma melhor organização interna e agilidade nas operações diárias, contribuindo para uma experiência ainda mais satisfatória tanto para os clientes quanto para os profissionais envolvidos.
 
 ## Contribuição
 
