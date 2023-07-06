@@ -18,16 +18,19 @@ O PyCine é dividido em módulos que correspondem às diferentes entidades do si
 ### Filmes
 
 Permite cadastrar e gerenciar as informações relacionadas aos filmes exibidos no cinema. Cada filme é caracterizado por atributos como:
-1. **título,**
-2. **gênero(s),**
-3. **diretor(es),**
-4. **data de lançamento,**
-5. **classificação indicativa,** e
-6. **duração**
+1. **título, gênero(s),**
+2. **diretor(es)** e **data de lançamento,**
+3. **classificação indicativa,** e **duração**
 
 ### Ingressos
 
-O subprograma *"Ingressos"* possibilita o controle dos ingressos vendidos para as sessões de filmes. Cada ingresso é identificado por um **ID único** que corresponderá à convenção de cada cinema. Há uma sugestão de modelo:
+O subprograma *"Ingressos"* possibilita o controle dos ingressos vendidos para as sessões de filmes. Cada ingresso é identificado por um **ID único** que corresponderá à convenção de cada cinema. Há uma sugestão exemplo de modelo:
+> `"A3S4": ` Poltrona na fileira A cadeira 4, quarta "S" sala/sessão (4)
+> `"H1S2": ` Poltrona na fileira H cadeira 1, segunda "S" sala/sessão (2)
+
+Dessa forma, é gerado um código único que é utilizado como identificador do ingresso.
+
+![](https://i.imgur.com/7capjUH.jpg)
 
 O restante das propriedades do ingresso inclui: 
 1. **nome do cliente** (que o adquiriu o ingresso),
@@ -36,7 +39,7 @@ O restante das propriedades do ingresso inclui:
 
 ### Clientes
 
-Permite cadastrar e gerenciar informações dos clientes do cinema. É possível armazenar dados como **nome, idade, telefone** e outras informações.
+Permite cadastrar e gerenciar informações dos clientes do cinema. É possível armazenar dados como **nome, idade, telefone, CPF** e outras informações.
 
 ## Banco de Dados
 ![](https://i.imgur.com/UzaVnkT.png)
