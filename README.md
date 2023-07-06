@@ -2,6 +2,10 @@
 Repositório para trabalhar nas ==máquinas virtuais== Linux
 > Texto identado acredito enkge ngnseg bo srbgbsrkbgr brgb bbwbweb bw bb ww bhbrb b wibebefib wbw b wbfibr ivbrbvcb eb kwvb buibr uib eruibuir bivbuibr irvbi bi
 
+1. Controle de ingressos, sessões, e poltronas;
+2. Cad
+3. meu deus e agora
+
 ### 🎥 Permissões de Filmes
 |              | ➕ CRIAR | 🔁 ATUALIZAR | 🔍 BUSCAR | 🗑️ REMOVER | 👁️ VER |
 | ------------ | --------- | ------------ | ---------- | ---------- | ------- |
