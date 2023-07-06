@@ -56,33 +56,33 @@ Permite cadastrar e gerenciar informações dos clientes do cinema. É possível
 ## Updates Futuros
 > Para os próximos updates do projeto, estou planejando desenvolver um sistema adicional destinado exclusivamente aos funcionários e gerentes do cinema local. Esse sistema terá recursos avançados de permissões e autenticações para garantir a segurança e a privacidade das informações sensíveis.
 
-### PyCine Manager
+-   ### PyCine Manager
 
-> O módulo *"Managing"* possibilitará o gerenciamento dos usuários que controlam o sistema. Existem dois tipos de usuários: **administradores**, responsáveis pela gestão global do sistema *(permissão total)*, e **funcionários comuns**, que possuem *permissões limitadas*. O controle de acesso e autenticação serão implementados para garantir a segurança do sistema.
+    -   > O módulo *"Managing"* possibilitará o gerenciamento dos usuários que controlam o sistema. Existem dois tipos de usuários: **administradores**, responsáveis pela gestão global do sistema *(permissão total)*, e **funcionários comuns**, que possuem *permissões limitadas*. O controle de acesso e autenticação serão implementados para garantir a segurança do sistema.
 
-### 🎥 Permissões de Filmes
-|              | ➕ CRIAR | 🔁 ATUALIZAR | 🔍 BUSCAR | 🗑️ REMOVER | 👁️ VER |
-| ------------ | --------- | ------------ | ---------- | ---------- | ------- |
-| **ADMIN**     |   ✔     |     ✔        |     ✔      |     ✔      |    ✔   |
-| **Func. Comum** |        |      ✔      |       ✔     |            |    ✔   |
-| **Cliente**   |          |              |      ✔     |            |    ✔   |
+    ### 🎥 Permissões de Filmes
+    |              | ➕ CRIAR | 🔁 ATUALIZAR | 🔍 BUSCAR | 🗑️ REMOVER | 👁️ VER |
+    | ------------ | --------- | ------------ | ---------- | ---------- | ------- |
+    | **ADMIN**     |   ✔     |     ✔        |     ✔      |     ✔      |    ✔   |
+    | **Func. Comum** |        |      ✔      |       ✔     |            |    ✔   |
+    | **Cliente**   |          |              |      ✔     |            |    ✔   |
 
 
-### 🎟️ Permissões de Ingressos
-|              | ➕ CRIAR | 🔁 ATUALIZAR | 🔍 BUSCAR | 🗑️ REMOVER | 👁️ VER |
-| ------------ | --------- | ------------ | ---------- | ---------- | ------- |
-| **ADMIN**     |   ✔     |     ✔        |     ✔      |     ✔     |    ✔   |
-| **Func. Comum** |   ✔   |      ✔      |       ✔     |     ✔     |    ✔   |
-| **Cliente**   |    ✔    |              |      ✔     |     ✔      |    ✔   |
+    ### 🎟️ Permissões de Ingressos
+    |              | ➕ CRIAR | 🔁 ATUALIZAR | 🔍 BUSCAR | 🗑️ REMOVER | 👁️ VER |
+    | ------------ | --------- | ------------ | ---------- | ---------- | ------- |
+    | **ADMIN**     |   ✔     |     ✔        |     ✔      |     ✔     |    ✔   |
+    | **Func. Comum** |   ✔   |      ✔      |       ✔     |     ✔     |    ✔   |
+    | **Cliente**   |    ✔    |              |      ✔     |     ✔      |    ✔   |
 
-### 👤 Permissões de Clientes
-|               |    ➕ CRIAR      |     🔁 ATUALIZAR    | 🔍 BUSCAR |     🗑️ REMOVER      | 👁️ VER |
-| ------------- | ---------------- | -------------------- | ---------- | ------------------- | ------- |
-| **ADMIN**     |         ✔        |          ✔          |     ✔      |          ✔         |    ✔   |
-| **Func. Comum** |        ✔        |          ✔         |      ✔     |          ✔         |    ✔   |
-| **Cliente**   | (apenas o próprio) | (apenas o próprio) |      ✔     | (apenas o próprio) |    ✔   |
+    ### 👤 Permissões de Clientes
+    |               |    ➕ CRIAR      |     🔁 ATUALIZAR    | 🔍 BUSCAR |     🗑️ REMOVER      | 👁️ VER |
+    | ------------- | ---------------- | -------------------- | ---------- | ------------------- | ------- |
+    | **ADMIN**     |         ✔        |          ✔          |     ✔      |          ✔         |    ✔   |
+    | **Func. Comum** |        ✔        |          ✔         |      ✔     |          ✔         |    ✔   |
+    | **Cliente**   | (apenas o próprio) | (apenas o próprio) |      ✔     | (apenas o próprio) |    ✔   |
 
-> Essa adição funcionará como um complemento da versão padrão para clientes, e proporcionará uma melhor organização interna e agilidade nas operações diárias, contribuindo para uma experiência ainda mais satisfatória tanto para os clientes quanto para os profissionais envolvidos.
+    > Essa adição funcionará como um complemento da versão padrão para clientes, e proporcionará uma melhor organização interna e agilidade nas operações diárias, contribuindo para uma experiência ainda mais satisfatória tanto para os clientes quanto para os profissionais envolvidos.
 
 ## Contribuição
 
