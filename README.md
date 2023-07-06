@@ -1,5 +1,6 @@
 # Fundamentos-SO
 Repositório para trabalhar nas máquinas virtuais Linux
+> Texto identado acredito
 
 ## Imagem Roxa
 ![](https://i.imgur.com/rZkNahQ.jpg)
