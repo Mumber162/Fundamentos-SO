@@ -25,15 +25,15 @@ Permite cadastrar e gerenciar as informações relacionadas aos filmes exibidos 
 ### Ingressos
 
 O subprograma *"Ingressos"* possibilita o controle dos ingressos vendidos para as sessões de filmes. Cada ingresso é identificado por um **ID único** que corresponderá à convenção de cada cinema. Há uma sugestão exemplo de modelo:
-> `"A3S4": ` Poltrona na fileira A cadeira 4, quarta "S" sala/sessão (4)
-> `"H1S2": ` Poltrona na fileira H cadeira 1, segunda "S" sala/sessão (2)
+> **`"A3S4"`**: Poltrona na fileira A cadeira 4, quarta "S" sala/sessão (4)<br>
+> **`"H1S2"`**: Poltrona na fileira H cadeira 1, segunda "S" sala/sessão (2)
 
 Dessa forma, é gerado um código único que é utilizado como identificador do ingresso.
 
 ![](https://i.imgur.com/7capjUH.jpg)
 
 O restante das propriedades do ingresso inclui: 
-1. **nome do cliente** (que o adquiriu o ingresso),
+1. **nome do cliente** (que adquiriu o ingresso),
 2. **data e hora da sessão,** e
 3. **filme em exibição.**
 
@@ -44,18 +44,18 @@ Permite cadastrar e gerenciar informações dos clientes do cinema. É possível
 ## Banco de Dados
 ![](https://i.imgur.com/UzaVnkT.png)
 
-&nbsp;&nbsp;&nbsp; O projeto utiliza um banco de dados local em formato binário ".dat" para armazenar e gerenciar as informações relacionadas aos filmes, ingressos e clientes do cinema. Esse banco de dados é manipulado por meio das operações básicas de abertura (open), escrita (write) e carregamento (load) de dados nos arquivos correspondentes.
-&nbsp;&nbsp;&nbsp; Cada entidade do sistema, como filmes, ingressos e clientes, possui seu próprio arquivo ".dat", no qual as informações são armazenadas de forma estruturada. Essa abordagem permite o armazenamento persistente dos dados, garantindo que as informações sejam preservadas mesmo após o encerramento do programa.
+&nbsp;&nbsp;&nbsp; O projeto utiliza um banco de dados local em formato binário ".dat" para armazenar e gerenciar as informações relacionadas aos filmes, ingressos e clientes do cinema. Esse banco de dados é manipulado por meio das operações básicas de abertura (open), escrita (write) e carregamento (load) de dados nos arquivos correspondentes.<br>
+&nbsp;&nbsp;&nbsp; Cada entidade do sistema, como filmes, ingressos e clientes, possui seu próprio arquivo ".dat", no qual as informações são armazenadas de forma estruturada. Essa abordagem permite o armazenamento persistente dos dados, garantindo que as informações sejam preservadas mesmo após o encerramento do programa.<br>
 &nbsp;&nbsp;&nbsp; As operações CRUD (Create, Read, Update, Delete) são implementadas para permitir a criação, leitura, atualização e exclusão de registros no banco de dados. Essas operações são realizadas diretamente nos arquivos ".dat" correspondentes, proporcionando a manipulação eficiente e precisa dos dados.
 
 *É importante ressaltar que o banco de dados atual é local e específico para cada instalação do programa. Caso seja necessário compartilhar os dados entre diferentes instâncias do sistema, será necessário adotar uma abordagem de banco de dados centralizado ou utilizar tecnologias de sincronização de dados adequadas.*
 
 ## Updates Futuros
-Para os próximos updates do projeto, estou planejando desenvolver um sistema adicional destinado exclusivamente aos funcionários e gerentes do cinema local. Esse sistema terá recursos avançados de permissões e autenticações para garantir a segurança e a privacidade das informações sensíveis.
+> Para os próximos updates do projeto, estou planejando desenvolver um sistema adicional destinado exclusivamente aos funcionários e gerentes do cinema local. Esse sistema terá recursos avançados de permissões e autenticações para garantir a segurança e a privacidade das informações sensíveis.
 
 ### PyCine Manager
 
-O módulo *"Managing"* possibilitará o gerenciamento dos usuários que controlam o sistema. Existem dois tipos de usuários: **administradores**, responsáveis pela gestão global do sistema *(permissão total)*, e **funcionários comuns**, que possuem *permissões limitadas*. O controle de acesso e autenticação serão implementados para garantir a segurança do sistema.
+> O módulo *"Managing"* possibilitará o gerenciamento dos usuários que controlam o sistema. Existem dois tipos de usuários: **administradores**, responsáveis pela gestão global do sistema *(permissão total)*, e **funcionários comuns**, que possuem *permissões limitadas*. O controle de acesso e autenticação serão implementados para garantir a segurança do sistema.
 
 ### 🎥 Permissões de Filmes
 |              | ➕ CRIAR | 🔁 ATUALIZAR | 🔍 BUSCAR | 🗑️ REMOVER | 👁️ VER |
