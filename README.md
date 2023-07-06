@@ -9,13 +9,19 @@ Repositório para trabalhar nas ==máquinas virtuais== Linux
 | **Func. Comum** |        |      ✔      |       ✔     |            |    ✔   |
 | **Cliente**   |          |              |      ✔     |            |    ✔   |
 
-
 ### 🎟️ Permissões de Ingressos
 |              | ➕ CRIAR | 🔁 ATUALIZAR | 🔍 BUSCAR | 🗑️ REMOVER | 👁️ VER |
 | ------------ | --------- | ------------ | ---------- | ---------- | ------- |
 | **ADMIN**     |   ✔     |     ✔        |     ✔      |     ✔     |    ✔   |
 | **Func. Comum** |   ✔   |      ✔      |       ✔     |     ✔     |    ✔   |
 | **Cliente**   |    ✔    |              |      ✔     |     ✔      |    ✔   |
+
+### 👤 Permissões de Clientes
+|               |    ➕ CRIAR      |     🔁 ATUALIZAR    | 🔍 BUSCAR |     🗑️ REMOVER      | 👁️ VER |
+| ------------- | ---------------- | -------------------- | ---------- | ------------------- | ------- |
+| **ADMIN**     |         ✔        |          ✔          |     ✔      |          ✔          |    ✔   |
+| **Func. Comum** |        ✔        |          ✔          |      ✔     |          ✔         |    ✔   |
+| **Cliente**   | (apenas o próprio) | (apenas o prórprio) |      ✔     | (apenas o próprio) |    ✔   |
 
 ## Imagem Roxa
 ![](https://i.imgur.com/rZkNahQ.jpg)
