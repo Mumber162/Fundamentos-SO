@@ -11,10 +11,10 @@ Repositório para trabalhar nas ==máquinas virtuais== Linux
 
 ### Permissões de Filmes
 |              | ➕ CRIAR | 🔁 ATUALIZAR | 🔍 BUSCAR | 🗑️ REMOVER | 👁️ VER |
-| ------------ | ----- --- | ------------ | ------ --- | ---------- | ---------- |
-| **ADMIN**     |   ✔     |     ✔        |     ✔      |     ✔      |      ✔     |
-| **Func. Comum** |        |      ✔      |       ✔     |            |      ✔     |
-| **Cliente**   |          |              |      ✔     |             |      ✔     |
+| ------------ | --------- | ------------ | ---------- | ---------- | ------- |
+| **ADMIN**     |   ✔     |     ✔        |     ✔      |     ✔      |    ✔   |
+| **Func. Comum** |        |      ✔      |       ✔     |            |    ✔   |
+| **Cliente**   |          |              |      ✔     |            |    ✔   |
 
 |       | CRIAR Ingressos | ATUALIZAR Ingressos | BUSCAR Ingressos | REMOVER Ingressos | VER Ingressos |
 | ----- | --------------- | ------------------- | ---------------- | ----------------- | ------------- |
