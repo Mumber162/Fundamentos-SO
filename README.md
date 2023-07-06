@@ -7,7 +7,7 @@ Repositório para trabalhar nas ==máquinas virtuais== Linux
 | Header | Title |
 | Paragraph | Text | 
 | Paragraph | Text |
-| Header | Title |
+| Title |
 
 ## Imagem Roxa
 ![](https://i.imgur.com/rZkNahQ.jpg)
