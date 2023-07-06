@@ -41,7 +41,7 @@ O restante das propriedades do ingresso inclui:
 
 Permite cadastrar e gerenciar informações dos clientes do cinema. É possível armazenar dados como **nome, idade, telefone, CPF** e outras informações.
 
-## Banco de Dados
+## 🎲 Banco de Dados
 ![](https://i.imgur.com/UzaVnkT.png)
 
 &nbsp;&nbsp;&nbsp; O projeto utiliza um banco de dados local em formato binário ".dat" para armazenar e gerenciar as informações relacionadas aos filmes, ingressos e clientes do cinema. Esse banco de dados é manipulado por meio das operações básicas de abertura (open), escrita (write) e carregamento (load) de dados nos arquivos correspondentes.<br>
@@ -50,7 +50,8 @@ Permite cadastrar e gerenciar informações dos clientes do cinema. É possível
 
 *É importante ressaltar que o banco de dados atual é local e específico para cada instalação do programa. Caso seja necessário compartilhar os dados entre diferentes instâncias do sistema, será necessário adotar uma abordagem de banco de dados centralizado ou utilizar tecnologias de sincronização de dados adequadas.*
 
-## 🤕 **Problemas**
+## 🤕 **Problemas** ❌
+> - Seria interessante poder cadastrar vários assentos (comprar vários ingressos) para um filme só, uma conta só. Mas há um obstáculo cognitivo que impede que a resolução em código para este problema.
 
 ## Updates Futuros
 > Para os próximos updates do projeto, estou planejando desenvolver um sistema adicional destinado exclusivamente aos funcionários e gerentes do cinema local. Esse sistema terá recursos avançados de permissões e autenticações para garantir a segurança e a privacidade das informações sensíveis.
