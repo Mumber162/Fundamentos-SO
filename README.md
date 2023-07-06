@@ -1,3 +1,3 @@
 # Fundamentos-SO
-![](https://imgur.com/a/7LF3lLP)
+![](https://i.imgur.com/HTJDcNT.jpg)
 Repositório para trabalhar nas máquinas virtuais Linux
