@@ -9,12 +9,12 @@ Repositório para trabalhar nas ==máquinas virtuais== Linux
 | Paragraph | Text |
 | Title | ✔ |  |
 
-### Permissões
-|       | CRIAR Filmes | ATUALIZAR Filmes | BUSCAR Filmes | REMOVER Filmes | VER Filmes |
-| ----- | ------------ | ---------------- | ------------- | -------------- | ---------- |
-| ADMIN |      ✔       |        ✔        |       ✔       |       ✔       |      ✔     |
-| Func. Comum |              |        ✔        |       ✔       |              |      ✔     |
-| Cliente |              |                 |       ✔       |               |      ✔     |
+### Permissões de Filmes
+|              | ➕ CRIAR | 🔁 ATUALIZAR | 🔍 BUSCAR | 🗑️ REMOVER | 👁️ VER |
+| ------------ | ----- --- | ------------ | ------ --- | ---------- | ---------- |
+| **ADMIN**     |   ✔     |     ✔        |     ✔      |     ✔      |      ✔     |
+| **Func. Comum** |        |      ✔      |       ✔     |            |      ✔     |
+| **Cliente**   |          |              |      ✔     |             |      ✔     |
 
 |       | CRIAR Ingressos | ATUALIZAR Ingressos | BUSCAR Ingressos | REMOVER Ingressos | VER Ingressos |
 | ----- | --------------- | ------------------- | ---------------- | ----------------- | ------------- |
